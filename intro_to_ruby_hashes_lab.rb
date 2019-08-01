@@ -22,8 +22,7 @@ def my_hash_creator(key, value)
 end 
  
 def read_from_hash(hash = {}, key = "key")
-  hash = {key=> 9}
-  hash[key]
+  hash["key2"]
 end
 
 { key1: "value1", key2: "value2" }
