@@ -27,8 +27,10 @@ end
 
 { key1: "value1", key2: "value2" }
 { 
-  key1: "value1", 
-  key2: "value2" 
+  "key1" => "value1", 
+  "key2" => "value2",
+  "age" => 27,
+  "random_number" => 10094
 }
 
  
