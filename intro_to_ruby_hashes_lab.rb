@@ -21,8 +21,8 @@ def my_hash_creator(key, value)
 {key => value}
 end 
  
-def read_from_hash(hash = {}, key)
-  hash[key]
+def read_from_hash(hash_parameter = {}, key_parameter)
+  hash_parameter[key_parameter]
 end
 
 read_from_hash({ "key1" => "value1", "key2" => "value2", "age" => 27, "random_number" => 10094 }, "random_number")
