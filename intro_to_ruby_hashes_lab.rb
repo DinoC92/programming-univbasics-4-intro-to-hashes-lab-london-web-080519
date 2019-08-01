@@ -23,6 +23,7 @@ end
  
 def read_from_hash(hash = {}, key = "key")
   hash = {key=> 9}
+  hash[key]
 end
 
 { key1: "value1", key2: "value2" }
