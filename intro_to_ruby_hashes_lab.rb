@@ -21,9 +21,12 @@ def my_hash_creator(key, value)
 {key => value}
 end 
  
-def read_from_hash(hash = {}, key = "key")
-  hash["key2"]
+def read_from_hash(hash = {}, key)
+  hash[key]
 end
+
+read_from_hash({ "key1" => "value1", "key2" => "value2", "age" => 27, "random_number" => 10094 }, "random_number")
+# => 10094
 
 { key1: "value1", key2: "value2" }
 { 
