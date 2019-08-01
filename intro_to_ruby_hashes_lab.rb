@@ -24,6 +24,13 @@ end
 def read_from_hash(hash = {}, key = "key")
   hash = {key=> 9}
 end
+
+{ key1: "value1", key2: "value2" }
+{ 
+  key1: "value1", 
+  key2: "value2" 
+}
+
  
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
